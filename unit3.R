@@ -12,3 +12,5 @@ dat=rbind(dat,dat2)
 ggplot(dat,aes(targets,rt,colour=type))+
   geom_point()+
   geom_line(aes(lty=type))
+
+# Test
